@@ -32,7 +32,9 @@ class uiPost {
     deletPost(target){
       if(target.classList.contains('postdelet'))  {
           target.parentElement.parentElement.parentElement.remove();
+          this.alertShow('the post is deleted successfully', 'danger');
       }
+
     }
     alertShow(message, alertClass) {
         messageAlert.innerHTML = "";
@@ -100,7 +102,6 @@ postlist.addEventListener('click', function (e) {
     const uipost = new uiPost();
     uipost.deletPost(e.target);
     store.deletLocalPost(e.target);
-    uipost.alertShow('the post is deleted successfully', 'danger');
 })
 document.addEventListener("DOMContentLoaded", store.addlocalPost);
 

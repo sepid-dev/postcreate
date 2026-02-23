@@ -62,7 +62,7 @@ body {
     color: #1d1b1b !important;
     transition: all 0.4s ease !important;
     animation: cardAppear 0.6s ease forwards !important;
-    box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
 }
 
 @keyframes cardAppear {
@@ -77,7 +77,7 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-10px) scale(1.03) !important;
+    transform: translateY(-3px) scale(1.03) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.3);
 }
 .card-title{
