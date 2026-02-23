@@ -12,7 +12,7 @@ class uiPost {
     createPost(post) {
         const divPost = document.createElement('div');
         divPost.className = "col-12 col-md-4 mt-3";
-        divPost.innerHTML = `<div class="card">
+        divPost.innerHTML = `<div class="card mt-4">
                 <div class="card-body">
                     <h5 class="card-title">${post.title}</h5>
                     <div class="card-subtitle badge text-center">${post.author}</div>
