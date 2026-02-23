@@ -1,0 +1,111 @@
+/* ========= GLOBAL STYLE ========= */
+
+body {
+    background: linear-gradient(300deg, #72f099, #a8d8b2);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* smooth fade in */
+body {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+#form {
+    background: rgba(255, 255, 255, 0.15)!important;
+    backdrop-filter: blur(12px)!important;
+    border-radius: 10px!important;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+
+.form-control {
+    border-radius: 10px!important;
+    border: none!important;
+    padding: 10px 15px!important;
+    transition: 0.3s ease!important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.4)!important;
+    transform: scale(1.02)!important;
+}
+
+/* ========= BUTTON ========= */
+
+.btn-primary {
+    background: linear-gradient(45deg, #e73d9c, #f11c4c);
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 25px !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.card {
+    background: linear-gradient(45deg, #fdfdfd, #f3eff0) !important;
+    backdrop-filter: blur(15px) !important;
+    border-radius: 12px !important;
+    border: none !important;
+    color: #1d1b1b !important;
+    transition: all 0.4s ease !important;
+    animation: cardAppear 0.6s ease forwards !important;
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03) !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+.card-title{
+    font-weight: bold;
+    font-size: 18px!important;
+    color: #6b23e1 !important
+}
+.badge {
+    /*margin-bottom: 10px !important;*/
+    font-size: 0.8rem !important;
+    background: linear-gradient(45deg, #e73d9c, #f11c4c)!important;
+}
+
+.postdelet {
+    color: #ee093e !important;
+    text-decoration: none;
+    transition: 0.3s ease !important;
+}
+
+.postdelet:hover {
+    color: #ff4d4d !important;
+    transform: translateX(5px);
+}
+
+.alert {
+    border-radius: 15px !important;
+    font-weight: 500;
+}
+hr{
+    color: white;
+}
