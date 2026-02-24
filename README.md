@@ -5,13 +5,22 @@ A structured post management application built using Vanilla JavaScript (ES6 Cla
 This project demonstrates practical implementation of Object-Oriented Programming principles, state management, and browser storage without using any frameworks
 
 ---
-
+<br>
 🚀 Live Demo
 
 https://sepid-dev.github.io/postcreate/
 
+
+---
+<br>
+📸 Preview
+
+![Post Create Preview](image/postCreate.PNG)
+
+
 ---
 
+<br>
 🎯 Project Purpose
 
 This project was developed to practice:
@@ -27,7 +36,7 @@ Managing application state
 Working with LocalStorage as a persistence layer
 
 ---
-
+<br>
 ✨ Features
 
 Create posts (title, author, body)
@@ -45,7 +54,7 @@ Responsive UI built with Bootstrap
 Custom styling enhancements
 
 ---
-
+<br>
 🧠 Architecture Overview
 
 The application follows a class-based modular structure:
@@ -81,7 +90,7 @@ Delete posts
 Rehydrate state on load
 
 ---
-
+<br>
 🏗️ Separation of Concerns
 
 Data Model Layer → Post
@@ -95,7 +104,7 @@ State Persistence → LocalStorage
 This separation improves maintainability and scalability
 
 ---
-
+<br>
 📦 Technologies Used
 
 HTML5
@@ -109,7 +118,7 @@ JavaScript (ES6)
 LocalStorage API
 
 ---
-
+<br>
 📊 What This Project Demonstrates
 
 Practical OOP implementation in JavaScript
@@ -125,7 +134,7 @@ Clean event handling
 Basic persistence layer design
 
 ---
-
+<br>
 🔮 Possible Improvements
 
 Introduce unique IDs instead of title-based deletion
@@ -143,7 +152,7 @@ Add testing layer
 Migrate architecture to MVC pattern
 
 ---
-
+<br>
 👨‍💻 Author
 
 Developed as part of structured JavaScript OOP practice
