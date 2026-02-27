@@ -5,20 +5,6 @@ A structured post management application built using Vanilla JavaScript (ES6 Cla
 This project demonstrates practical implementation of Object-Oriented Programming principles, state management, and browser storage without using any frameworks
 
 ---
-<br>
-🚀 Live Demo
-
-https://sepid-dev.github.io/postcreate/
-
-
----
-<br>
-📸 Preview
-
-![Post Create Preview](image/postCreate.PNG)
-
-
----
 
 <br>
 🎯 Project Purpose
@@ -152,6 +138,22 @@ Add testing layer
 Migrate architecture to MVC pattern
 
 ---
+
+<br>
+🚀 Live Demo
+
+https://sepid-dev.github.io/postcreate/
+
+
+---
+<br>
+📸 Preview
+
+![Post Create Preview](image/postCreate.PNG)
+
+
+---
+
 <br>
 👨‍💻 Author
 
